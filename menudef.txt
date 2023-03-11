@@ -1,0 +1,18 @@
+OptionMenu "HDWeaponHelpOptions"
+{
+	Title "Weapon Help Options"
+
+	Slider "Hidden Alpha", "WeaponHelp_Hidden_Alpha", 0.00, 1.00, 0.05, 2
+	Slider "Focused Alpha", "WeaponHelp_Focus_Alpha", 0.00, 1.00, 0.05, 2
+	Slider "Text Scale", "WeaponHelp_Scale", 0.00, 2.00, 0.05, 2
+}
+
+AddOptionMenu "OptionsMenu"
+{
+	Submenu "Weapon Help Options", "HDWeaponHelpOptions"
+}
+
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "Weapon Help Options", "HDWeaponHelpOptions"
+}

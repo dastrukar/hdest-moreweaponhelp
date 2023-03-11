@@ -1,0 +1,3 @@
+nosave float WeaponHelp_Hidden_Alpha = 0.40;
+nosave float WeaponHelp_Focus_Alpha = 0.80;
+nosave float WeaponHelp_Scale = 1.00;
