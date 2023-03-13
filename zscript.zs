@@ -10,8 +10,8 @@ class NewHUDWeaponHelp : HUDWeaponHelp
 		int wephelpheight=NewSmallFont.GetHeight()*3;
 		string s="Hold "..WEPHELP_USE.." to focus\n\n"..sb.hpl.wephelptext;
 		screen.drawText(NewSmallFont,OptionMenuSettings.mFontColorValue,
-			8,
-			wephelpheight,
+			8 * WeaponHelp_Scale,
+			wephelpheight * WeaponHelp_Scale,
 			s,
 			DTA_VirtualWidth,640,
 			DTA_VirtualHeight,480,
